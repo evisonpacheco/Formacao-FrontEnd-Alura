@@ -1,5 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #cccccc;
+}
+
+#banner{
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -10,10 +20,10 @@ p {
     text-align: center;
 }
 
-em strong{
-    color: #FF0000;
+#mission {
+    font-size: 20px;
 }
 
-em {
-    font-size: 20px;
+em strong{
+    color: #FF0000;
 }
