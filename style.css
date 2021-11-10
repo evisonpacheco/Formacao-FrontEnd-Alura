@@ -1,15 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+body {}
 
-body {
-    background-color: #cccccc;
-}
-
-#banner{
+#banner {
     width: 100%;
     height: auto;
+}
+
+.main {
+    background-color: #cccccc;
 }
 
 h1 {
@@ -24,6 +21,18 @@ p {
     font-size: 20px;
 }
 
-em strong{
+em strong {
     color: #FF0000;
+}
+
+.benefits {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.itens {
+    font-style: italic;
 }
