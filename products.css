@@ -1,13 +1,27 @@
 /* Header */
+
 header {
-  background-color: #BBBBBB;
+    background-color: #BBBBBB;
+    padding: 1rem 0;
+}
+
+.containerHeader {
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 5%;
 }
 
 nav a {
-  color: #000000;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-  margin: 0 0 0 15px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 0 15px;
 }
