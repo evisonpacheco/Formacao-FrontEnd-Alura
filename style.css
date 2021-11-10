@@ -1,4 +1,6 @@
-body {}
+.main-title{
+    padding-left: 20px;
+}
 
 #banner {
     width: 100%;
@@ -7,9 +9,10 @@ body {}
 
 .main {
     background-color: #cccccc;
+    padding: 30px;
 }
 
-h1 {
+.title-center {
     text-align: center;
 }
 
@@ -27,12 +30,22 @@ em strong {
 
 .benefits {
     background-color: white;
+    padding: 20px;
 }
 
-h2 {
-    text-align: center;
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
 }
 
 .itens {
     font-style: italic;
+    font-size: 20px;
+}
+
+.imgBenefits{
+    width: 50%;
+    margin: 0;
 }
