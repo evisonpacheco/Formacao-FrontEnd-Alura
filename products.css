@@ -1,4 +1,4 @@
-/* Header */
+/* Header Section */
 
 header {
     background-color: #BBBBBB;
@@ -6,7 +6,7 @@ header {
 }
 
 .containerHeader {
-   width: 940px;
+   width: 60rem;
    position: relative;
    margin: 0 auto;
 }
@@ -23,5 +23,42 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 1rem;
+}
+
+/* Main Section */
+
+.services {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.services li {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.services h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 10px;
+}
+
+.services .servicesDescription {
+    font-size: 1.25rem;
+    padding: 0.5rem 0 0;
+}
+
+.services .servicesPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 0 0;
 }
