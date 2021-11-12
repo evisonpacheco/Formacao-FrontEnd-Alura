@@ -26,6 +26,12 @@ nav a {
     margin: 0 0 0 1rem;
 }
 
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+}
+
 /* Main Section */
 
 .services {
