@@ -48,12 +48,24 @@ nav a:hover{
     width: 30%;
     margin: 0 1.5%;
     padding: 10px 20px;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 5px;
 }
 
+.services li:hover {
+    border-color: #C78C19;
+}
+
+.services li:hover h2 {
+    font-size: 2.1rem;
+}
+
+.services li:active {
+    border-color: #008000;
+}
+
 .services h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     padding: 0 0 10px;
 }
