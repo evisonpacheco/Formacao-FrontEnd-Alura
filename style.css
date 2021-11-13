@@ -1,23 +1,74 @@
-.main-title{
-    padding-left: 20px;
+/* Header Section */
+
+header {
+    background-color: #BBBBBB;
+    padding: 1rem 0;
 }
+
+.containerHeader {
+   width: 100%;
+   position: relative;
+   padding: 0 10%;
+   box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+nav a {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 0 1rem;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Banner Section */
 
 #banner {
     width: 100%;
     height: auto;
+    padding: 2rem 0;
 }
+
+/* Main Section */
 
 .main {
     background-color: #cccccc;
     padding: 30px;
 }
 
+.main h2 {
+    font-size: 2rem;
+    padding: 0 0 1rem;
+}
+
 .title-center {
     text-align: center;
 }
 
-p {
+.main p {
     text-align: center;
+    padding: 0.5rem 0 0.5rem;
 }
 
 #mission {
@@ -31,6 +82,14 @@ em strong {
 .benefits {
     background-color: white;
     padding: 20px;
+}
+
+.benefits h3 {
+    background-color: #cccccc;
+    font-size: 1.5rem;
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
 }
 
 ul {
@@ -48,4 +107,16 @@ ul {
 .imgBenefits{
     width: 50%;
     margin: 0;
+}
+
+/* Footer Section */
+
+footer {
+    background: url('images/products/bg.jpg');
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+footer .copyright {
+    color: white;
 }
