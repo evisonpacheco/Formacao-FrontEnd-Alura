@@ -42,71 +42,53 @@ nav a:hover{
     text-shadow: 1px 1px 1px black;
 }
 
-/* Banner Section */
-
-#banner {
-    width: 100%;
-    height: auto;
-    padding: 2rem 0;
-}
-
 /* Main Section */
 
-.main {
-    background-color: #cccccc;
-    padding: 30px;
+.services {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3rem;
 }
 
-.main h2 {
-    font-size: 2rem;
-    padding: 0 0 1rem;
-}
-
-.title-center {
-    text-align: center;
-}
-
-.main p {
-    text-align: center;
-    padding: 0.5rem 0 0.5rem;
-}
-
-#mission {
-    font-size: 20px;
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.benefits {
-    background-color: white;
-    padding: 20px;
-}
-
-.benefits h3 {
-    background-color: #cccccc;
-    font-size: 1.5rem;
-    display: block;
-    width: 50%;
-    margin: 1rem auto;
-}
-
-ul {
+.services li {
     display: inline-block;
+    box-sizing: border-box;
     vertical-align: top;
+    text-align: center;
     width: 30%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 5px;
 }
 
-.itens {
-    font-style: italic;
-    font-size: 20px;
+.services li:hover {
+    border-color: #C78C19;
 }
 
-.imgBenefits{
-    width: 50%;
-    margin: 0;
+.services li:hover h2 {
+    font-size: 2.1rem;
+}
+
+.services li:active {
+    border-color: #008000;
+}
+
+.services h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0 0 10px;
+}
+
+.services .servicesDescription {
+    font-size: 1.25rem;
+    padding: 0.5rem 0 0;
+}
+
+.services .servicesPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 0 0;
 }
 
 /* Footer Section */
