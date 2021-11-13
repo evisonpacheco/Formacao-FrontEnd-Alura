@@ -6,14 +6,24 @@ header {
 }
 
 .containerHeader {
-   width: 60rem;
+   width: 100%;
    position: relative;
-   margin: 0 auto;
+   padding: 0 10%;
+   box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%;
+    right: 50%;
 }
 
 nav {
     position: absolute;
-    top: 110px;
+    top: 50%;
     right: 5%;
 }
 
