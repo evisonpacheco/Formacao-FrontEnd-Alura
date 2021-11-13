@@ -6,16 +6,15 @@ header {
 }
 
 .containerHeader {
-   width: 100%;
-   position: relative;
-   padding: 0 10%;
-   box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    padding: 0 10%;
+    box-sizing: border-box;
 }
 
 header h1 {
     font-size: 22px;
     font-weight: bold;
-
     position: absolute;
     top: 50%;
     right: 50%;
@@ -36,11 +35,12 @@ nav a {
     margin: 0 0 0 1rem;
 }
 
-nav a:hover{
+nav a:hover {
     color: white;
     text-decoration: underline;
     text-shadow: 1px 1px 1px black;
 }
+
 
 /* Main Section */
 
@@ -91,14 +91,40 @@ nav a:hover{
     padding: 0.5rem 0 0;
 }
 
+
 /* Footer Section */
 
 footer {
-    background: url('images/products/bg.jpg');
+    background: url('./images/products/bg.jpg');
     text-align: center;
     padding: 2rem 0 1rem;
 }
 
 footer .copyright {
     color: white;
+}
+
+
+/* General */
+
+main {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+form label {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0;
+}
+
+form input {
+    display: block;
+    margin: 0 0 0.5rem;
+    padding: 0.3rem 0.5rem;
+    width: 50%;
 }
