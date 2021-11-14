@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 
-<html lang='pt-br'>
+<html lang="pt-br">
 
 <head>
-    <meta charset='UTF-8'>
+    <meta charset="UTF-8">
     <title>Contato - Barbearia Alura</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel='stylesheet' href='./style.css'>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
-        <div class='containerHeader'>
-            <h1 class='main-title'>Barbearia Alura</h1>
-            <img src='./images/products/logo.png' alt='Logo da Barbearia Alura'>
+        <div class="containerHeader">
+            <h1 class="main-title">Barbearia Alura</h1>
+            <img src="./images/products/logo.png" alt="Logo da Barbearia Alura">
             <nav>
                 <a href="./index.html">Home</a>
                 <a href="./products.html">Produtos</a>
@@ -24,22 +24,36 @@
 
     <main>
       <form action="">
-        <label for='name'>Nome</label>
-        <input type='text' id='name'>
+        <label for="name">Nome</label>
+        <input type="text" id="name">
 
-        <label for='email'>Email</label>
-        <input type="email" id='email'>
+        <label for="email">Email</label>
+        <input type="email" id="email">
 
         <label for="phone">Telefone</label>
         <input type="tel" name="phone" id="phone">
 
-        <input type="submit" value='Enviar'>
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" cols="50" rows="10"></textarea>
+
+        <div class="contact">
+          <p>Como prefere receber nosso contato?</p>
+          <label for="radioEmail">Email</label>
+          <input type="radio" name="contact" id="radioEmail" value="radioEmail">
+          <label for="radioPhone">Ligação</label>
+          <input type="radio" name="contact" id="radioPhone" value="radioPhone">
+          <label for="radioWhatsapp">Whatsapp</label>
+          <input type="radio" name="contact" id="radioWhatsapp" value="radioWhatsapp">
+        </div>
+
+        <label><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por email?</label>
+        <input type="submit" value="Enviar">
       </form>
     </main>
 
     <footer>
       <img src="./images/products/logo-branco.png" alt="Logotipo branco da barbearia Alura">
-      <p class='copyright'>&copy; Copyright Barbearia Alura</p>
+      <p class="copyright">&copy; Copyright Barbearia Alura</p>
   </footer>
 </body>
 
