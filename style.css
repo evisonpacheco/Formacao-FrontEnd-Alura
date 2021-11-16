@@ -44,6 +44,11 @@ nav a:hover {
 
 /* Main Section */
 
+main {
+    width: 60rem;
+    margin: 0 auto;
+}
+
 .services {
     width: 940px;
     margin: 0 auto;
@@ -104,15 +109,7 @@ footer .copyright {
     color: white;
 }
 
-
-/* General */
-
-main {
-    width: 60rem;
-    margin: 0 auto;
-}
-
-/* Form */
+/* Form Section */
 
 form {
     margin: 2rem 0;
@@ -167,4 +164,21 @@ form .submit:hover {
     border: 2px outset;
     border-color: internal-light-dark(black, white);
     transform: scale(1.01);
+}
+
+/* Table Section */
+
+table {
+    margin: 2rem 0 3rem;
+}
+
+table thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+table td, th {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
 }
