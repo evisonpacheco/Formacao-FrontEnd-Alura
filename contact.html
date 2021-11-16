@@ -3,67 +3,68 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Contato - Barbearia Alura</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <title>Contato - Barbearia Alura</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <div class="containerHeader">
-            <h1 class="main-title">Barbearia Alura</h1>
-            <img src="./images/products/logo.png" alt="Logo da Barbearia Alura">
-            <nav>
-                <a href="./index.html">Home</a>
-                <a href="./products.html">Produtos</a>
-                <a href="./contact.html">Contato</a>
-            </nav>
-        </div>
-    </header>
+  <header>
+    <div class="containerHeader">
+      <h1 class="main-title">Barbearia Alura</h1>
+      <img src="./images/products/logo.png" alt="Logo da Barbearia Alura">
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./products.html">Produtos</a>
+        <a href="./contact.html">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-      <form action="">
-        <label for="name">Nome</label>
-        <input type="text" id="name" class="standardInput">
+  <main>
+    <form action="">
+      <label for="name">Nome</label>
+      <input type="text" id="name" required>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" class="standardInput">
+      <label for="email">Email</label>
+      <input type="email" id="email" required placeholder="seuemail@email.com">
 
-        <label for="phone">Telefone</label>
-        <input type="tel" name="phone" id="phone" class="standardInput">
+      <label for="phone">Telefone</label>
+      <input type="tel" name="phone" id="phone" required placeholder="(XX) XXXXX-XXXX">
 
-        <label for="message">Mensagem</label>
-        <textarea name="message" id="message" class="standardInput"></textarea>
+      <label for="message">Mensagem</label>
+      <textarea name="message" id="message" rows="5" required></textarea>
 
-        <div class="contact">
-          <p>Como prefere receber nosso contato?</p>
-          <input type="radio" name="contact" id="radioEmail" value="radioEmail">
-          <label for="radioEmail">Email</label>          
-          
-          <input type="radio" name="contact" id="radioPhone" value="radioPhone">
-          <label for="radioPhone">Ligação</label>
-          
-          <input type="radio" name="contact" id="radioWhatsapp" value="radioWhatsapp">
-          <label for="radioWhatsapp">Whatsapp</label> 
-        </div>
+      <fieldset class="contact">
+        <legend>Como prefere receber nosso contato?</legend>
+        <input type="radio" name="contact" id="radioEmail" value="radioEmail">
+        <label for="radioEmail">Email</label>
 
-        <p>Qual horário você prefere ser atendido ?</p>
+        <input type="radio" name="contact" id="radioPhone" value="radioPhone">
+        <label for="radioPhone">Ligação</label>
+
+        <input type="radio" name="contact" id="radioWhatsapp" value="radioWhatsapp" checked>
+        <label for="radioWhatsapp">Whatsapp</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Qual horário você prefere ser atendido ?</legend>
         <select name="time" id="time">
           <option value="morning">Manhã</option>
-          <option value="afternoon">Tarde</option>
+          <option value="afternoon" selected>Tarde</option>
           <option value="night">Noite</option>
         </select>
+      </fieldset>
 
+      <label class="checkbox"><input type="checkbox" name="checkbox" id="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
 
-        <label class="checkbox"><input type="checkbox" name="checkbox" id="checkbox" >Gostaria de receber nossas novidades por email?</label>
-        <input type="submit" value="Enviar">
-      </form>
-    </main>
-
-    <footer>
-      <img src="./images/products/logo-branco.png" alt="Logotipo branco da barbearia Alura">
-      <p class="copyright">&copy; Copyright Barbearia Alura</p>
+  <footer>
+    <img src="./images/products/logo-branco.png" alt="Logotipo branco da barbearia Alura">
+    <p class="copyright">&copy; Copyright Barbearia Alura</p>
   </footer>
 </body>
 
