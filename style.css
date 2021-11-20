@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    background: linear-gradient(#FEFEFE, #888888)
+}
+
 /* Header - All Pages*/
 
 header {
@@ -89,6 +93,22 @@ nav a:hover {
     font-style: italic;
 }
 
+/* Map Section - Home Page*/
+
+.map {
+    padding: 3rem 0;
+}
+
+.mapContent {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.map p {
+    margin: 0 0 2rem;
+    text-align: center;
+}
+
 /* Benefits Section - Home Page */
 
 .benefits {
@@ -125,32 +145,15 @@ nav a:hover {
     margin: 4rem auto 1rem;
 }
 
-/* Map Section - Home Page*/
-
-.map {
-    padding: 3rem 0;
-}
-
-.mapContent {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.map p {
-    margin: 0 0 2rem;
-    text-align: center;
-}
-
 /* Main - Contact Page */
 
 .services {
-    width: 100%;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .services img {
-    width: 100%;
+    width: 50%;
 }
 
 .services li {
@@ -170,7 +173,7 @@ nav a:hover {
 }
 
 .services li:hover h2 {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 .services li:active {
@@ -213,6 +216,7 @@ form {
     margin: 2rem 0;
     width: 70%;
     margin: 0 auto;
+    text-align: center;
 }
 
 form label, form legend {
@@ -223,7 +227,7 @@ form label, form legend {
 
 form > input, form > textarea {
     display: block;
-    margin: 0 0 0.5rem;
+    margin: 0 auto 0.5rem;
     padding: 0.5rem 0.3rem;
     width: 50%;
 }
@@ -237,7 +241,7 @@ form > input, form > textarea {
 }
 
 .contact input {
-    margin: 0.5rem 0 1rem;
+    margin: 0.5rem auto 1rem;
 }
 
 form .checkbox {
@@ -257,6 +261,7 @@ form .submit {
     border-color: internal-light-dark(black, white);
     transition: 0.3s all;
     cursor: pointer;
+    margin: 0 auto
 }
 
 form .submit:hover {
