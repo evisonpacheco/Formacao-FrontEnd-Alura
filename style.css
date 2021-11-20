@@ -88,6 +88,8 @@ main {
     font-style: italic;
 }
 
+/* Benefits Section - Home Page */
+
 .benefits {
     clear: left;
 }
@@ -95,6 +97,11 @@ main {
 .imgBenefits {
     width: 50%;
     height: auto;
+}
+
+.video {
+    width: 35rem;
+    margin: 1rem auto;
 }
 
 /* Map Section - Home Page*/
