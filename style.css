@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Header Section - All Pages*/
+/* Header - All Pages*/
 
 header {
     background-color: #BBBBBB;
@@ -45,14 +45,14 @@ nav a:hover {
     text-shadow: 1px 1px 1px black;
 }
 
-/* Main Section - All Pages */
+/* Main - All Pages */
 
 main {
     width: 70%;
     margin: 0 auto;
 }
 
-/* Main Section - Home Page */
+/* Main - Home Page */
 
 .banner {
     width: 100%;
@@ -61,7 +61,7 @@ main {
 .photoCredits {
     font-size: 0.75rem;
     text-align: right;
-    margin: 0 0 1rem;
+    margin: 0 0.5rem 1rem;
 }
 
 .mainTitle {
@@ -97,7 +97,18 @@ main {
     height: auto;
 }
 
-/* Main Section - Contact Page */
+/* Map Section - Home Page*/
+
+.map {
+    padding: 3rem 0;
+}
+
+.map p {
+    margin: 0 0 2rem;
+    text-align: center;
+}
+
+/* Main - Contact Page */
 
 .services {
     width: 100%;
@@ -151,7 +162,7 @@ main {
 }
 
 
-/* Footer Section - All Pages*/
+/* Footer - All Pages*/
 
 footer {
     background: url('./images/products/bg.jpg');
