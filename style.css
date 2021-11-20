@@ -1,4 +1,8 @@
-/* Header Section */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section - All Pages*/
 
 header {
     background-color: #BBBBBB;
@@ -41,18 +45,68 @@ nav a:hover {
     text-shadow: 1px 1px 1px black;
 }
 
-
-/* Main Section */
+/* Main Section - All Pages */
 
 main {
-    width: 60rem;
+    width: 70%;
     margin: 0 auto;
 }
 
+/* Main Section - Home Page */
+
+.banner {
+    width: 100%;
+}
+
+.photoCredits {
+    font-size: 0.75rem;
+    text-align: right;
+    margin: 0 0 1rem;
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.imageTools {
+    width: 10rem;
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.main p {
+    margin: 0 0 1rem;
+}
+
+.main strong {
+    font-weight: bold;
+}
+
+.main em {
+    font-style: italic;
+}
+
+.benefits {
+    clear: left;
+}
+
+.imgBenefits {
+    width: 50%;
+    height: auto;
+}
+
+/* Main Section - Contact Page */
+
 .services {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     padding: 3rem;
+}
+
+.services img {
+    width: 100%;
 }
 
 .services li {
@@ -97,7 +151,7 @@ main {
 }
 
 
-/* Footer Section */
+/* Footer Section - All Pages*/
 
 footer {
     background: url('./images/products/bg.jpg');
@@ -109,7 +163,7 @@ footer .copyright {
     color: white;
 }
 
-/* Form Section */
+/* Form Section - Contact Page */
 
 form {
     margin: 2rem 0;
@@ -166,7 +220,7 @@ form .submit:hover {
     transform: scale(1.01);
 }
 
-/* Table Section */
+/* Table Section - Contact Page*/
 
 table {
     margin: 2rem 0 3rem;
