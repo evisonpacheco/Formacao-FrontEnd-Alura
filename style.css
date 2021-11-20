@@ -45,13 +45,6 @@ nav a:hover {
     text-shadow: 1px 1px 1px black;
 }
 
-/* Main - All Pages */
-
-main {
-    width: 70%;
-    margin: 0 auto;
-}
-
 /* Main - Home Page */
 
 .banner {
@@ -62,6 +55,14 @@ main {
     font-size: 0.75rem;
     text-align: right;
     margin: 0 0.5rem 1rem;
+}
+
+/* Main Section - Home Page */
+
+.main {
+    padding: 3rem 0;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .mainTitle {
@@ -128,6 +129,11 @@ main {
 
 .map {
     padding: 3rem 0;
+}
+
+.mapContent {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .map p {
@@ -205,6 +211,8 @@ footer .copyright {
 
 form {
     margin: 2rem 0;
+    width: 70%;
+    margin: 0 auto;
 }
 
 form label, form legend {
@@ -261,7 +269,8 @@ form .submit:hover {
 /* Table Section - Contact Page*/
 
 table {
-    margin: 2rem 0 3rem;
+    width: 20rem;
+    margin: 3rem auto 1em;
 }
 
 table thead {
