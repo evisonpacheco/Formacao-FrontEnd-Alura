@@ -107,6 +107,14 @@ main {
     vertical-align: top;
 }
 
+.benefits .itens {
+    line-height: 1.5;
+}
+
+.benefits .itens:first-child {
+    font-weight: bold;
+}
+
 .benefitsImage {
     width: 60%;
 }
