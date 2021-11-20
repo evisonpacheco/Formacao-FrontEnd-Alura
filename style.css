@@ -92,16 +92,28 @@ main {
 
 .benefits {
     clear: left;
+    padding: 3rem 0;
 }
 
-.imgBenefits {
-    width: 50%;
-    height: auto;
+.benefitsContent {
+    width: 40rem;
+    margin: 0 auto;
+    
+}
+
+.benefitsList {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.benefitsImage {
+    width: 60%;
 }
 
 .video {
     width: 35rem;
-    margin: 1rem auto;
+    margin: 4rem auto 1rem;
 }
 
 /* Map Section - Home Page*/
