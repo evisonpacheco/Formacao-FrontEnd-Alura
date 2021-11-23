@@ -3,7 +3,8 @@ body {
 }
 
 main {
-    background: linear-gradient(#FEFEFE, #888888)
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 1rem;
 }
 
 /* Header - All Pages*/
@@ -279,7 +280,8 @@ form .submit:hover {
 
 table {
     width: 20rem;
-    margin: 3rem auto 1em;
+    margin: 4rem auto 3rem;
+    background-color: #FEFEFE;
 }
 
 table thead {
