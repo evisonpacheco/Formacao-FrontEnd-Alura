@@ -47,12 +47,22 @@
 
   /* Products Page */
 
+  .services {
+    text-align: center;
+  }
+
+  .services li {
+    width: 50%;
+    margin: 1rem 0;
+  }
+
   .services h2, .services .servicesDescription, .services .servicesPrice {
     font-size: 100%;
+    text-align: center;
   }
 
   .services li:hover h2 {
-    font-size: 110%;
+    font-size: 120%;
   }
 
   /* Contact Page */
