@@ -136,6 +136,10 @@ nav a:hover {
     font-weight: bold;
 }
 
+.benefits .itens:before {
+    content: "\2726\0020"
+}
+
 .benefitsImage {
     width: 60%;
 }
