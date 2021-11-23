@@ -1,0 +1,47 @@
+@media screen and (max-width: 800px) {
+  /* Header */
+
+  .containerHeader {
+      width: 100%;
+      padding: 0;
+      position: relative;    
+  }
+
+  .containerHeader h1 {
+      position: absolute;
+      top: 50%;
+      right: 15%;
+      text-align: center;
+  }
+
+  .containerHeader img {
+      width: 25%;   
+      margin: 0 0 0 15%
+  }
+
+  nav {
+      position: static;
+      text-align: center;
+  }
+
+  /* General */
+
+  .main, .map, .mapContent, .benefits, .benefitsContent, .video {
+      width: 100%;
+      margin: 3rem 0;
+      padding: 0;
+  }
+
+  /* Benefits Section */
+
+  .benefitsList {
+      width: 100%;
+  }
+
+
+  .benefitsImage {
+      display: block;
+      width: 75vw;
+      margin: 1rem auto 0;
+  }
+}
