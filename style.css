@@ -1,301 +1,308 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 main {
-    background: linear-gradient(#FEFEFE, #888888);
-    padding: 1rem;
+  background: linear-gradient(#FEFEFE, #888888);
+  padding: 1rem;
 }
+
 
 /* Header - All Pages*/
 
 header {
-    background-color: #BBBBBB;
-    padding: 1rem 0;
+  background-color: #BBBBBB;
+  padding: 1rem 0;
 }
 
 .containerHeader {
-    width: 100%;
-    position: relative;
-    padding: 0 10%;
-    box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  padding: 0 10%;
+  box-sizing: border-box;
 }
 
 header h1 {
-    font-size: 22px;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    right: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  right: 50%;
 }
 
 nav {
-    position: absolute;
-    top: 50%;
-    right: 5%;
+  position: absolute;
+  top: 50%;
+  right: 5%;
 }
 
 nav a {
-    color: #000000;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-    margin: 0 0 0 1rem;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0 0 0 1rem;
 }
 
 nav a:hover {
-    color: white;
-    text-decoration: underline;
-    text-shadow: 1px 1px 1px black;
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px black;
 }
+
 
 /* Main - Home Page */
 
 .banner {
-    width: 100%;
+  width: 100%;
 }
 
 .photoCredits {
-    font-size: 0.75rem;
-    text-align: right;
-    margin: 0 0.5rem 1rem;
+  font-size: 0.75rem;
+  text-align: right;
+  margin: 0 0.5rem 1rem;
 }
+
 
 /* Main Section - Home Page */
 
 .main {
-    padding: 3rem 0;
-    width: 70%;
-    margin: 0 auto;
+  padding: 3rem 0;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .mainTitle {
-    text-align: center;
-    font-size: 2rem;
-    margin: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
 .imageTools {
-    width: 10rem;
-    float: left;
-    margin: 0 1rem 1rem 0;
-    border-radius: 10px;
+  width: 10rem;
+  float: left;
+  margin: 0 1rem 1rem 0;
+  border-radius: 10px;
 }
 
 .main p {
-    margin: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 
 .main strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .main em {
-    font-style: italic;
+  font-style: italic;
 }
+
 
 /* Map Section - Home Page*/
 
 .map {
-    padding: 3rem 0;
-    width: 80%;
-    margin: 0 auto;
+  padding: 3rem 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .mapContent {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .map p {
-    margin: 0 0 2rem;
-    text-align: center;
+  margin: 0 0 2rem;
+  text-align: center;
 }
+
 
 /* Benefits Section - Home Page */
 
 .benefits {
-    clear: left;
-    padding: 3rem 0;
+  clear: left;
+  padding: 3rem 0;
 }
 
 .benefitsContent {
-    width: 40rem;
-    margin: 0 auto;
-    
+  width: 40rem;
+  margin: 0 auto;
 }
 
 .benefitsList {
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .benefits .itens {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .benefits .itens:first-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .benefits .itens:before {
-    content: "\2726\0020"
+  content: "\2726\0020"
 }
 
 .benefitsImage {
-    width: 60%;
-    border: 2.5px solid white;
-    box-sizing: border-box;
+  width: 60%;
+  border: 2.5px solid white;
+  box-sizing: border-box;
 }
 
 .video {
-    width: 35rem;
-    margin: 4rem auto 1rem;
+  width: 35rem;
+  margin: 4rem auto 1rem;
 }
+
 
 /* Main - Products Page */
 
 .services {
-    margin: 0 auto;
-    padding: 3rem 10%;
+  margin: 0 auto;
+  padding: 3rem 10%;
 }
 
 .services img {
-    width: 75%;
+  width: 75%;
 }
 
 .services li {
-    display: inline-block;
-    box-sizing: border-box;
-    vertical-align: top;
-    text-align: center;
-    width: 30%;
-    margin: 0 1%;
-    padding: 10px 20px;
-    border: 3px solid black;
-    border-radius: 5px;
-    background-color: #FEFEFE;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+  width: 30%;
+  margin: 0 1%;
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #FEFEFE;
 }
 
 .services li:hover {
-    border-color: #C78C19;
+  border-color: #C78C19;
 }
 
 .services li:hover h2 {
-    font-size: 2rem;
+  font-size: 150%;
 }
 
 .services li:active {
-    border-color: #008000;
+  border-color: #008000;
 }
 
 .services h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    padding: 0 0 10px;
+  font-size: 140%;
+  font-weight: bold;
+  padding: 0 0 10px;
 }
 
 .services .servicesDescription {
-    font-size: 1.25rem;
-    padding: 0.5rem 0 0;
+  font-size: 1.25rem;
+  padding: 0.5rem 0 0;
 }
 
 .services .servicesPrice {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 0.5rem 0 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0 0;
 }
 
 
 /* Footer - All Pages*/
 
 footer {
-    background: url('./images/products/bg.jpg');
-    text-align: center;
-    padding: 2rem 0 1rem;
+  background: url('./images/products/bg.jpg');
+  text-align: center;
+  padding: 2rem 0 1rem;
 }
 
 footer .copyright {
-    color: white;
+  color: white;
 }
+
 
 /* Form Section - Contact Page */
 
 form {
-    margin: 2rem 0;
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
+  margin: 2rem 0;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 form label, form legend {
-    display: inline-block;
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
 }
 
-form > input, form > textarea {
-    display: block;
-    margin: 0 auto 0.5rem;
-    padding: 0.5rem 0.3rem;
-    width: 50%;
+form>input, form>textarea {
+  display: block;
+  margin: 0 auto 0.5rem;
+  padding: 0.5rem 0.3rem;
+  width: 50%;
 }
 
 .contact label, input {
-    display: inline-block;
+  display: inline-block;
 }
 
 .contact label {
-    margin: 0.5rem 1rem 1rem 0;
+  margin: 0.5rem 1rem 1rem 0;
 }
 
 .contact input {
-    margin: 0.5rem auto 1rem;
+  margin: 0.5rem auto 1rem;
 }
 
 form .checkbox {
-    margin: 1rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 form .submit {
-    box-sizing: border-box;
-    width: 40%;
-    padding: 1rem 0;
-    background-color:#005CC8;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: 2px outset;
-    border-color: internal-light-dark(black, white);
-    transition: 0.3s all;
-    cursor: pointer;
-    margin: 0 auto
+  box-sizing: border-box;
+  width: 40%;
+  padding: 1rem 0;
+  background-color: #005CC8;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px outset;
+  border-color: internal-light-dark(black, white);
+  transition: 0.3s all;
+  cursor: pointer;
+  margin: 0 auto
 }
 
 form .submit:hover {
-    background-color: blue;
-    border: 2px outset;
-    border-color: internal-light-dark(black, white);
-    transform: scale(1.01);
+  background-color: blue;
+  border: 2px outset;
+  border-color: internal-light-dark(black, white);
+  transform: scale(1.01);
 }
+
 
 /* Table Section - Contact Page*/
 
 table {
-    width: 20rem;
-    margin: 4rem auto 3rem;
-    background-color: #FEFEFE;
+  width: 20rem;
+  margin: 4rem auto 3rem;
+  background-color: #FEFEFE;
 }
 
 table thead {
-    background-color: #555555;
-    color: white;
-    font-weight: bold;
+  background-color: #555555;
+  color: white;
+  font-weight: bold;
 }
 
 table td, th {
-    border: 1px solid black;
-    padding: 0.5rem 1rem;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
 }
