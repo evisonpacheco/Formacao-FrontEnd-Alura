@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px) {
   /* General */
 
-  .main, .map, .mapContent, .benefits, .benefitsContent, .video, .form {
+  .main, .map, .mapContent, .benefits, .benefitsContent, .video, form {
     width: 100%;
     margin: 3rem 0;
     padding: 0;
@@ -53,5 +53,15 @@
 
   .services li:hover h2 {
     font-size: 110%;
+  }
+
+  /* Contact Page */
+
+  form>input, .form>textarea {
+    width: 80%
+  }
+
+  table {
+    width: 50%;
   }
 }

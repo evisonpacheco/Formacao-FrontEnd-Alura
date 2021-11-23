@@ -266,8 +266,8 @@ form .checkbox {
 
 form .submit {
   box-sizing: border-box;
-  width: 40%;
-  padding: 1rem 0;
+  width: auto;
+  padding: 1rem 0.5rem;
   background-color: #005CC8;
   color: white;
   font-size: 1rem;
@@ -291,9 +291,10 @@ form .submit:hover {
 /* Table Section - Contact Page*/
 
 table {
-  width: 20rem;
+  width: 30%;
   margin: 4rem auto 3rem;
   background-color: #FEFEFE;
+  text-align: center;
 }
 
 table thead {
