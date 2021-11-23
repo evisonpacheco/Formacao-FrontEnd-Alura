@@ -154,15 +154,15 @@ nav a:hover {
     margin: 4rem auto 1rem;
 }
 
-/* Main - Contact Page */
+/* Main - Products Page */
 
 .services {
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 3rem 10%;
 }
 
 .services img {
-    width: 50%;
+    width: 75%;
 }
 
 .services li {
@@ -171,10 +171,11 @@ nav a:hover {
     vertical-align: top;
     text-align: center;
     width: 30%;
-    margin: 0 1.5%;
+    margin: 0 1%;
     padding: 10px 20px;
     border: 3px solid black;
     border-radius: 5px;
+    background-color: #FEFEFE;
 }
 
 .services li:hover {
