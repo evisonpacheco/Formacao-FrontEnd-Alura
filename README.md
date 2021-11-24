@@ -4,6 +4,9 @@
 
 # English
 ## Barbershop Landing Page
+
+Avaiable at: [evisonpacheco.github.io/barbershop-landing-page](https://evisonpacheco.github.io/barbershop-landing-page/index.html)
+
 A landing page for a fictitius barbershop called "Barbearia Alura".
 
 Developed in HTML 5 and pure CSS 3.
@@ -21,6 +24,9 @@ Features:
 
 # Português
 ## Landing Page de uma Barbearia
+
+Disponível em: [evisonpacheco.github.io/barbershop-landing-page](https://evisonpacheco.github.io/barbershop-landing-page/index.html)
+
 Uma landing page de uma barbearia fictícia chamada "Barbearia Alura".
 
 Desenvolvida em HTML 5 e CSS 3 puro.
